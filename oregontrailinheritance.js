@@ -148,7 +148,6 @@ class Wagon {
         let travelersFood = 0;
         
         for(let i= 0; i<this._passageiros.length; i++){
-            console.log(this._passageiros[i].food);
             travelersFood = travelersFood + this._passageiros[i].food;
         }
         return travelersFood;
